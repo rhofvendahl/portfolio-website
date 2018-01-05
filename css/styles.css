@@ -1,13 +1,18 @@
 .navbar-fixed-left {
-  width: 120px;
+  width: 105px;
+  padding-top: 100px;
   position: fixed;
   border-radius: 0;
   height: 100%;
   float: left;
 }
 
+.logo-font {
+  font-weight: bold;
+  font-size: 50px;
+}
 .container-fluid {
-margin-left: 120px;
+margin-left: 105px;
 padding: 0px;
 }
 
