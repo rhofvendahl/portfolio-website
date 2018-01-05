@@ -1,10 +1,19 @@
 .navbar-fixed-left {
-  width: 105px;
-  padding-top: 100px;
+  width: 110px;
+  padding-top: 150px;
   position: fixed;
   border-radius: 0;
   height: 100%;
   float: left;
+}
+
+.navbar-fixed-left .navbar-nav > li {
+width: 109px;
+}
+
+.dropdown-menu {
+  margin-top: -50px;
+  margin-left: 140px;
 }
 
 .logo-font {
@@ -12,7 +21,7 @@
   font-size: 50px;
 }
 .container-fluid {
-margin-left: 105px;
+margin-left: 110px;
 padding: 0px;
 }
 
