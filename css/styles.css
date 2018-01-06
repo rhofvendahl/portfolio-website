@@ -24,22 +24,22 @@ padding: 0px;
 background-color: #f7f5f3;
 }
 
-#bg-animation {
+.bg-animation {
   width: 100%;
 }
 
-#content {
+.content {
   margin: 50px;
 }
 
-#center {
+.center {
   text-align: center;
 }
 
-#slant {
+.slant {
   font-style:italic;
 }
 
-#footer {
+.footer {
 
 }
