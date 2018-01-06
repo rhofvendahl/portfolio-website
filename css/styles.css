@@ -1,5 +1,5 @@
 .navbar-fixed-left {
-  width: 105px;
+  width: 150px;
   padding-top: 15%;
   position: fixed;
   border-radius: 0;
@@ -9,16 +9,16 @@
 
 .navbar-fixed-left li {
   margin-top: 0;
-  width: 104px;
+  width: 149px;
 }
 
 .logo-font {
-  font-size: 50px;
+  font-size: 70px;
   margin-bottom: 20px;
 }
 
 .container-fluid {
-margin-left: 105px;
+margin-left: 150px;
 height: 10000px;
 padding: 0px;
 background-color: ###faf2ec;
