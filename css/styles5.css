@@ -31,7 +31,7 @@ body {
 
 .vertical-stripe {
   background-color: #D1C0A3;
-  width: 20px;
+  width: 24px;
   height: 100%;
   position: absolute;
   right: 0px;
@@ -41,7 +41,7 @@ body {
 .horizontal-stripe {
   background-color: #D1C0A3;
   width: 100%;
-  height: 10px;
+  height: 16px;
   z-index: 3000;
   /* margin-top: -40px; */
 }
@@ -57,8 +57,9 @@ body {
   /* font-family: 'Work Sans', sans-serif; */
   /* font-family: 'Abel', sans-serif; */
 
-  font-family: 'Comfortaa', cursive;
+  /* font-family: 'Comfortaa', cursive; */
   /* font-family: 'Julius Sans One', sans-serif; */
+  font-weight: bold;
   /* font-family: 'Averia Sans Libre', cursive; */
 
   /* font-weight: bold; */
@@ -74,16 +75,16 @@ body {
   position: absolute;
   width: 150px;
   bottom: 5px;
-  right: 10px;
+  right: 20px;
 }
 
 .buttons > * {
   margin: 10px;
-  border-width: 2px;
+  border-width: 3px;
   /* font-family: 'Comfortaa', cursive; */
   /* font-family: 'Julius Sans One', sans-serif; */
   font-size: 20px;
-  /* font-weight: bold; */
+  font-weight: bold;
   /* padding-left: 8px;
   padding-right: 8px;
   padding-top: 4px;
@@ -102,7 +103,7 @@ body {
   border-top-right-radius: 90px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
-  border-width: 2px;
+  border-width: 3px;
   border-bottom-style: none;
 }
 
@@ -114,6 +115,8 @@ body {
   color: #1EA54E;
   font-size: 20px;
   /* font-family: 'Comfortaa', cursive; */
+  /* font-family: 'Julius Sans One', sans-serif; */
+  font-weight: bold;
   /* font-family: 'Julius Sans One', sans-serif; */
 }
 
@@ -151,10 +154,10 @@ body {
 
 .indic {
   border: 2px solid #EAC9A6;
-  border-radius: 2px;
-  top: 50px;
+  bottom: -55px;
 }
 
 .active.indic {
   border-color: #1EA54E;
+  border-radius: 2px;
 }
