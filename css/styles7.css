@@ -50,7 +50,8 @@ body {
 
 .logo {
   position: absolute;
-  right: 106px;
+  right: 107px;
+  /* right: 115px; */
   bottom: 200px;
 }
 
@@ -75,7 +76,8 @@ body {
   position: absolute;
   width: 150px;
   bottom: 5px;
-  right: 29px;
+  right: 25px;
+  right: 32px;
 }
 
 .buttons > * {
