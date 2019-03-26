@@ -91,8 +91,8 @@ html, body {
   margin-left: calc(30px + 3vw);
   margin-right: 35%;
   margin-top: 100px;
-  border-top-left-radius: 3vw;
-  border-top-right-radius: 12vw;
+  border-top-left-radius: 12vw;
+  border-top-right-radius: 3vw;
   border-bottom-left-radius: 0vw;
   border-bottom-right-radius: 0vw;
   border-width: 8px;
@@ -100,8 +100,8 @@ html, body {
 }
 
 .project-preview > img {
-  border-top-left-radius: calc(3vw - 8px);
-  border-top-right-radius: calc(12vw - 8px);
+  border-top-left-radius: calc(12vw - 8px);
+  border-top-right-radius: calc(3vw - 8px);
 }
 
 /* .carousel-indicators {
