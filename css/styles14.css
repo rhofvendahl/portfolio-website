@@ -113,8 +113,10 @@ html, body {
 .project-preview img {
   border-top-left-radius: 4.5vw;
   border-top-right-radius: 14.5vw;
-  width: 50vw;
-  height: auto;
+  height: calc(25vw + 25vh - 200px);
+
+  width: auto;
+  /* width: 50vw; */
 }
 
 .i-build {
