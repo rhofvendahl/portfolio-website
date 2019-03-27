@@ -170,7 +170,7 @@ html, body {
   border-bottom-right-radius: calc(1.5vw + 5px);
   position: absolute;
   top: 100%;
-  margin-left: 30vw;
+  margin-left: calc(26vw + 30px);
 }
 
 .in {
