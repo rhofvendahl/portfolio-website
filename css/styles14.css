@@ -45,8 +45,7 @@ html, body {
 .leaves {
   position: absolute;
   width: 150px;
-  bottom: 1vw;
-  bottom: calc(.5vw);
+  bottom: .5vw;
   right: calc(100% + 6px);
 }
 
@@ -69,6 +68,12 @@ html, body {
   height: 70vh;
   margin-bottom: 30vh;
   position: relative;
+}
+
+#scroll-work, #scroll-about, #scroll-contact {
+  position: absolute;
+  bottom: 0px;
+  height: 70vh;
 }
 
 .branch {
@@ -126,9 +131,6 @@ html, body {
   border-bottom-style: none;
 }
 
-#work .lump {
-}
-
 .header {
   background-color: #1EA54E;
   color: white;
@@ -145,16 +147,6 @@ html, body {
   font-size: calc(1.75vw + 5.833333px);
   font-family: 'Comfortaa', cursive;
   color: #1EA54E;
-}
-
-#about .lump {
-  bottom: 100%;
-  overflow: hidden;
-}
-
-#contact .lump {
-  bottom: 100%;
-  overflow: hidden;
 }
 
 .email {
@@ -206,13 +198,22 @@ html, body {
 }
 
 .indic {
-  border: 6px solid #EAC9A6;
-  border-radius: 6px;
-  bottom: calc(calc(-1.6vw - 61px));
+  bottom: calc(-3.5vw - 45px);
+  border-radius: calc(.75vw);
 }
 
 .active.indic {
   border-color: #1EA54E;
+}
+
+ol.carousel-indicators li {
+  width: 4vw;
+  height: calc(1.5vw);
+  background-color: #EAC9A6;
+}
+
+ol.carousel-indicators li.active {
+  background-color: #1EA54E;
 }
 
 .carousel-item {

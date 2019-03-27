@@ -7,6 +7,7 @@
     <link rel='stylesheet' type='text/css'href='css/styles14.css'>
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Julius+Sans+One|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -34,24 +35,25 @@
           <div class='trunk'>
             <div class='logo'>HOFVENDAHL</div>
             <div class='leaves'>
-              <a class='btn btn-success btn-lg' href='#work'>Work</a>
-              <a class='btn btn-success btn-lg' href='#about'>About</a>
-              <a class='btn btn-success btn-lg' href='#contact'>Contact</a>
+              <a class='btn btn-success btn-lg' href='#scroll-work'>Work</a>
+              <a class='btn btn-success btn-lg' href='#scroll-about'>About</a>
+              <a class='btn btn-success btn-lg' href='#scroll-contact'>Contact</a>
             </div>
           </div>
-          <div id='work' class='section'>
+          <div class='section'>
             <div class='branch'>
-              <div id="projects" class="carousel slide" data-ride="carousel" data-interval='10000'>
+              <div id='scroll-work'></div>
+              <div id="projects" class="carousel slide" data-ride="carousel" data-interval='15000' data-pause='false'>
               <ol class="carousel-indicators">
-                <li data-target="#projects" data-slide-to="0" class="active indic"></li>
+                <li data-target="#projects" data-slide-to="0" class="indic"></li>
                 <li data-target="#projects" data-slide-to="1" class='indic'></li>
-                <li data-target="#projects" data-slide-to="2" class='indic'></li>
+                <li data-target="#projects" data-slide-to="2" class='active indic'></li>
                 <li data-target="#projects" data-slide-to="3" class='indic'></li>
               </ol>
               <div class="carousel-inner">
-                <div class="carousel-item active" data-interval='10'>
+                <div class="carousel-item" data-interval='10'>
                   <a class='btn btn-success btn-lg project-preview' href='http://www.simflora.us' target='_blank'>
-                    <img src="img/tree1.gif" alt="SimFlora">
+                    <img src="img/simflora.gif" alt="SimFlora">
                     <div class='project-description'>
                       <div>Team</div>
                       <div>ThreeJS</div>
@@ -61,7 +63,7 @@
                 </div>
                 <div class="carousel-item">
                   <a class='btn btn-success btn-lg project-preview' href='http://www.visualparse.us' target='_blank'>
-                    <img src='img/parse1.gif' alt="VisualParse">
+                    <img src='img/visualparse.gif' alt="VisualParse">
                     <div class='project-description'>
                       <div>NLP</div>
                       <div>Flask</div>
@@ -69,9 +71,9 @@
                     </div>
                   </a>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item active">
                   <a class='btn btn-success btn-lg project-preview' href='http://www.zenscape.us' target='_blank'>
-                    <img src="img/scape1.gif" alt="ZenScape">
+                    <img src="img/zenscape.gif" alt="ZenScape">
                     <div class='project-description'>
                       <div>jQuery</div>
                       <div>Div Transforms</div>
@@ -80,7 +82,7 @@
                 </div>
                 <div class="carousel-item">
                   <a class='btn btn-success btn-lg project-preview' href='http://www.simcellular.us' target='_blank'>
-                    <img src="img/cells1.gif" alt="SimCellular">
+                    <img src="img/simcellular.gif" alt="SimCellular">
                     <div class='project-description'>
                       <div>Firebase</div>
                       <div>Angular2.0</div>
@@ -91,8 +93,9 @@
             </div>
             </div>
           </div>
-          <div id='about' class='section'>
+          <div class='section'>
             <div class='branch'>
+              <div id='scroll-about'></div>
               <div class='i-build'>
                 <div class='header'>I build simple things</div>
                 <div class='body'>
@@ -104,8 +107,9 @@
               </div>
             </div>
           </div>
-          <div id='contact' class='section'>
+          <div class='section'>
             <div class='branch'>
+              <div id='scroll-contact'></div>
               <a href='mailto:rhofvendahl@gmail.com' target='_top' class='btn btn-success btn-lg email'>
                 <i class='fas fa-envelope'></i>
               </a>
