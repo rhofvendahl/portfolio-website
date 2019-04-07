@@ -1,6 +1,8 @@
 html, body {
   height: 100%;
   overflow: hidden;
+  font-family: 'Comfortaa', cursive;
+  -webkit-backface-visibility: hidden;
 }
 
 .container-fluid {
@@ -40,6 +42,7 @@ html, body {
   transform-origin: left bottom;
   left: 35px;
   z-index: -1;
+  font-family: 'open-sans', sans-serif;
 }
 
 .leaves {
@@ -52,7 +55,6 @@ html, body {
 .leaves > * {
   margin-bottom: 1vw;
   border-width: 3px;
-  font-family: 'Comfortaa', cursive;
   font-size: calc(10px + 1vw);
   font-weight: bold;
   border-right: none;
@@ -84,7 +86,6 @@ html, body {
   bottom: 0px;
   transform: rotate(-2deg);
   transform-origin: bottom left;
-  -webkit-backface-visibility: hidden;
 }
 
 #projects {
@@ -108,25 +109,46 @@ html, body {
   bottom: 0px;
   position: absolute;
   padding: 0px;
+  font-size: calc(10px + 1vw);
 }
 
 .project-preview img {
   border-top-left-radius: 4.5vw;
   border-top-right-radius: 14.5vw;
   height: calc(25vw + 25vh - 200px);
-
   width: auto;
-  /* width: 50vw; */
+}
+
+.project-description {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  z-index: 9000;
+  background-color: #28a745;
+  padding-left: 2.5vw;
+  padding-right: .2vw;
+  border-top-left-radius: 3vw;
+  transition-delay: .06s;
+}
+
+.btn-success:hover .project-description {
+  background-color: #1e7e34;
+  transition-delay: .06s;
+}
+
+.project-skills {
+  position: absolute;
+  left: calc(100% + 2.5vw - 20px);
+  text-align: left;
+  bottom: calc(.5vw - 20px);
+  color: #28a745;
+  font-style: italic;
 }
 
 .i-build {
-  -webkit-backface-visibility: hidden;
-  overflow: hidden;
-  border: #1EA54E 1.5vw solid;
-  border-top-left-radius: 5vw;
-  border-top-right-radius: 15vw;
-  border-bottom-left-radius: 0vw;
-  border-bottom-right-radius: 0vw;
+  border: #28a745 1.5vw solid;
+  border-top-left-radius: 6vw;
+  border-top-right-radius: 12vw;
   position: absolute;
   bottom: 100%;
   margin-left: 7vw;
@@ -134,21 +156,25 @@ html, body {
 }
 
 .header {
-  background-color: #1EA54E;
+  background-color: #28a745;
   color: white;
-  padding-left: 3vw;
+  padding-left: 4vw;
   padding-right: 6vw;
-  padding-top: 2vw;
-  padding-bottom: 2vw;
+  padding-top: 4.5vw;
+  padding-bottom: 3.5vw;
   font-size: calc(2.5vw + 8.3333333px);
-  margin: -1px;
+  margin: -1.5vw;
+  border-top-left-radius: calc(6vw);
+  border-top-right-radius: calc(12vw);
+  border-bottom-left-radius: calc(6vw);
 }
 
 .body {
-  padding-top: 2vw;
+  padding-top: 4vw;
+  padding-left: .5vw;
+  padding-bottom: 1vw;
   font-size: calc(1.75vw + 5.833333px);
-  font-family: 'Comfortaa', cursive;
-  color: #1EA54E;
+  color: #28a745;
 }
 
 .email {
@@ -184,28 +210,18 @@ html, body {
   font-weight: bold;
 }
 
-
-.project-description {
-  position: absolute;
-  left: calc(100% + 2.5vw + 4px);
-  text-align: left;
-  bottom: calc(.5vw);
-  font-family: 'Comfortaa', cursive;
-  font-size: calc(10px + 1vw);
-  color: #1EA54E;
-}
-
 .carousel-indicators {
   margin-left: -40vw;
+  position: absolute;
+  bottom: calc(-3.5vw - 38px);
 }
 
 .indic {
-  bottom: calc(-3.5vw - 45px);
   border-radius: calc(.75vw);
 }
 
 .active.indic {
-  border-color: #1EA54E;
+  border-color: #28a745;
 }
 
 ol.carousel-indicators li {
@@ -215,7 +231,7 @@ ol.carousel-indicators li {
 }
 
 ol.carousel-indicators li.active {
-  background-color: #1EA54E;
+  background-color: #28a745;
 }
 
 .carousel-item {
