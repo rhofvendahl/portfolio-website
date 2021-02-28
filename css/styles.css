@@ -183,7 +183,7 @@ html, body {
   border-radius: 0px;
   border-top-left-radius: calc(1.5vw + 5px);
   border-top-right-radius: calc(1.5vw + 5px);
-  margin-left: 20vw;
+  margin-left: 45vw;
 }
 
 .email i {
@@ -208,6 +208,21 @@ html, body {
   margin-left: calc(0vw - 5px);
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
+}
+
+.github {
+  position: absolute;
+  bottom: 100%;
+  margin-left: 20vw;
+  border-radius: 0px;
+  border-top-left-radius: calc(2vw + 8px);
+  border-top-right-radius: calc(2vw + 8px);
+}
+
+.gh {
+  height: calc(7vw + 38px);
+  /* width: calc(7.5vw + 38px); */
+
 }
 
 .carousel-indicators {
